@@ -1,0 +1,1 @@
+.morpion{display:flex;flex-direction:column;gap:10px}.morpion .row{display:flex;gap:10px;width:320px}.morpion .row .cell{background-color:red;width:100px;height:100px;cursor:pointer}.morpion .row .cell.green{background-color:green;pointer-events:none}.morpion .row .cell.blue{background-color:blue;pointer-events:none}/*# sourceMappingURL=style.css.map */

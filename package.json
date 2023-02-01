@@ -1,0 +1,16 @@
+{
+  "name": "morpion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "sass": "sass --watch ./public/scss/style.scss:./public/css/style.css --style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commonjs": "^0.0.1",
+    "sass": "^1.57.1"
+  }
+}

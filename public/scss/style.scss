@@ -1,0 +1,28 @@
+.morpion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .row {
+        display: flex;
+        gap: 10px;
+        width: 320px;
+
+        .cell {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+
+            &.green {
+                background-color: green;
+                pointer-events: none;
+            }
+
+            &.blue {
+                background-color: blue;
+                pointer-events: none;
+            }
+        }
+    }
+}
